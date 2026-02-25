@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    window.onload = () => {
+	const item = document.querySelector('h1');
+
+	item.addEventListener('mouseover', () => {
+	  item.style.color = 'red';
+	});
+
+	item.addEventListener('mouseout', () => {
+	  item.style.color = 'blue';
+	});
+      }
+     </script>
+     <style>
+      h1 { color: blue; BACKGROUND-COLOR: black; }
+     </style>
+   </head>
+
+   <body>
+      <h1>Wikipedia</h1>
+   </body>
+</html>
